@@ -14,6 +14,9 @@ The `GUI2.py` is the latest Graphical User Interface that combines all other pyt
 
 **NOTE**: When downloading files, please make sure to store the files in the same folder, otherwise importing problems might happen. 
 
+`sat22` is the mapping algorithm. 
+`ana`,`ana2`,`ana22` are scripts for analyzing in different situations. 
+
 
 # 3. Script Execution
 ## 3.1 Platforms
