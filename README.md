@@ -71,6 +71,7 @@ Reboot device by using the following command:
 $ sudo reboot
 ```
 (Or manually reboot)
+
 Check the space using this command:
 ```bash
 $ df -h
