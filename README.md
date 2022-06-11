@@ -32,7 +32,7 @@ The GUI is a python script that can conduct all the necessary functions of the d
 ### 3.2.1 Capture Image Sequence
 
 # 4. Environment Setup
-## 4.1 System
+## 4.1 System 
 For the most comfortable user experience, please use a Raspberry Pi with at least model 3B.  Model 3B+ is favored. 
 The model of Raspberry Pi can be found when you input the following command in terminal: 
 ```bash
@@ -55,5 +55,18 @@ SUPPORT_URL="http://www.raspbian.org/RaspbianForums"
 BUG_REPORT_URL="http://www.raspbian.org/RaspbianBugs"
 
 ```
+
+Next, the following command: 
+```bash
+$ sudo raspi-config
+```
+will lead you to the setting page of Raspberry Pi.
+
+Go to `Adcanced Options` and select `Expand File System` to maximize the use of file system.
+Reboot device by using the following command:
+```bash
+$ sudo reboot
+```
+(Or manually reboot)
 
 
