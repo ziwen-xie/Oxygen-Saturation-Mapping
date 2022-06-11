@@ -18,12 +18,12 @@ The `GUI2.py` is the latest Graphical User Interface that combines all other pyt
 # 3. Script Execution
 ## 3.1 Platforms
 Analyze process can be done in two platforms:
-## 3.1.1 MATLAB
+### 3.1.1 MATLAB
 1. run the `GUI` on Raspberry Pi, capture image sequences and store them
 2. manually export the image sequence files to another device with MATLAB installed
 3. analyze using MATLAB scripts
 
-## 3.1.2 Directly run on Raspberry Pi system via Python
+### 3.1.2 Directly run on Raspberry Pi system via Python
 1. run the `GUI` on Raspberry Pi, capture image sequences
 2. analyze using `GUI`'s analyze function
 
