@@ -5,9 +5,12 @@ Tumors exhibit greater vascularization and lower blood oxygenation. Suspicious t
 This device is working on a Raspberry Pi system.  Environment has to be set up to make sure the code's functionality. The setting up of the environment is described in section [[4. Environment Setup]](https://github.com/ziwen-xie/Oxygen-Saturation-Mapping/blob/main/README.md#4-environment-setup)
 
 This repository consists of several files.
+
 The `README.md` is the description file.
-The `GUI2.py` is the latest Graphical User Interface that combines all other python scripts
-`GUI.py` is the first edition of the Graphical User Interface and can provide the most basic functions
+
+The `GUI2.py` is the latest Graphical User Interface that combines all other python scripts.
+
+`GUI.py` is the first edition of the Graphical User Interface and can provide the most basic functions.
 
 **NOTE**: When downloading files, please make sure to store the files in the same folder, otherwise importing problems might happen. 
 
