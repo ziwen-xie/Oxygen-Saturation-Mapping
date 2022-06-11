@@ -68,5 +68,55 @@ Reboot device by using the following command:
 $ sudo reboot
 ```
 (Or manually reboot)
+Check the space using this command:
+```bash
+$ df -h
+```
+Update the system:
+```bash
+$ sudo apt-get update
+$ sudo apt-get upgrade
+```
 
+Once finished, go to the raspberry Pi setting:
+```bash
+$ sudo raspi-config
+```
+Go to `performance option` and then `GPU Memory`, set the GPU memory to at least 256 MB.
+
+## 4.2 Install libraries
+Check if pip is installed:
+```bash
+$ pip -V
+```
+if it gives a version > 21 then go to next step, if not install and update pip by:
+```bash
+$ sudo apt-get install python3-pip
+```
+or 
+```bash
+ $ sudo apt-get install python-pip
+```
+
+install numpy:
+```bash
+$ sudo apt-get install python3-dev python3-numpy
+```
+
+install tinter:
+```bash
+$ pip install tk
+```
+
+install threading:
+```bash
+$ pip install threading
+```
+install pillow
+install matplotlib
+install picamera
+install RPi.GPIO
+install skimage
+install shutil
+install opencv
 
