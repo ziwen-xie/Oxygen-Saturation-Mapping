@@ -109,18 +109,50 @@ $ sudo apt-get install python3-dev python3-numpy
 
 install tinter:
 ```bash
-$ pip install tk
+$ python3 -m pip install tk
 ```
 
 install threading:
 ```bash
-$ pip install threading
+$ python3 -m pip install threading
 ```
-install pillow
-install matplotlib
-install picamera
-install RPi.GPIO
-install skimage
-install shutil
-install opencv
 
+install pillow:
+```bash
+$ python3 -m pip install --upgrade Pillow
+```
+If cannot install from pip, follow the instructions to build the source from this link:
+https://pillow.readthedocs.io/en/stable/installation.html
+
+install matplotlib:
+```bash
+$ sudo apt-get install python3-matplotlib
+```
+Or follow the instruction to install matplotlib:
+https://matplotlib.org/stable/users/getting_started/
+
+install picamera:
+Follow the link to install picamera and get start:
+https://picamera.readthedocs.io/en/release-1.13/install.html
+
+```bash
+$ sudo apt-get install python-picamera python3-picamera
+```
+
+install skimage:
+follow the instructions from the documentation:
+https://scikit-image.org/docs/dev/install.html
+```bash
+$ python3 -m pip install -U scikit-image
+```
+
+install shutil:
+```bash
+$ python3 -m pip install shutil
+```
+
+install opencv:
+```bash
+$ python3 -m pip install opencv-python
+```
+or build from source (this may take 1~2 hours to complete if choose to build from source)
